@@ -1,0 +1,22 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "Task for FrontCamp 2017Q4",
+  "main": "server.js",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&&nodemon server.js",
+    "server": "node server.js",
+    "prod": "set NODE_ENV=prod&&nodemon server.js"
+  },
+  "author": "Yauheni Hladki",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3",
+    "pug": "^2.0.0-rc.4",
+    "winston": "^2.4.0"
+  }
+}
